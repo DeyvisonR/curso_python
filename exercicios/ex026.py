@@ -1,0 +1,6 @@
+algo = str(input('digite alguma coisa: '))
+algo.lower().strip()
+a = algo.count('a')
+print('a letra "a" aparece {} vezes'.format(a))
+print('a letra "a" apareceu pela primeira vez na posição {}'.format(algo.find('a') + 1))
+print('a letra "a" apareceu pela ultima vez na posição {}'.format(algo.rfind('a') + 1))
